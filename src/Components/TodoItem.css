@@ -1,0 +1,15 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
